@@ -18,7 +18,7 @@ myCar.logColor();
 /*
 In logColor - this.color: Blue
 In logColor - this.color: Blue
-In IIFE - this.color: undefined /binding with this keyword is lost in IIFE
+In IIFE - this.color: undefined /binding with this keyword is lost in IIFE, this now points to global object
 In IIFE - this.color: Blue
 */
 

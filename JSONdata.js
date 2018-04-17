@@ -14,3 +14,16 @@ const myJsonObj = {
     myFunction: [some function],
     myObject: [some object]
   };
+
+  /* solution */
+
+  const myJsonObj = {
+    "myString": "lizard",
+    "myNumber": 44,
+    "myNull": null,
+    "myBoolean": false,
+    //myUndefined: [undefined],
+    "myArray": [1, 2, 3, "reptile"],
+    //myFunction: [some function],
+    "myObject": { "nextString": "mammal", "nextNumber": 55}
+  };
